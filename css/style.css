@@ -1,0 +1,28 @@
+    header{
+        background-color:#E6A2C5;
+        padding: 20px;
+    } 
+    h1 {
+        color: 	#784283;
+        text-align: center;
+    }
+    
+    h2{
+        background-color:#E6A2C5;
+        color:#784283;
+        padding: 10px;
+    }
+
+    section{
+        margin: 5px;
+        background-color:#ffd8ec;
+        
+    }
+
+    p{
+        margin: 4px;
+    }
+
+    footer{
+        background-color:#7496D2;
+    }
