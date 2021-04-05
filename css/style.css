@@ -1,3 +1,26 @@
+    /* The navigation bar */
+.navbar {
+    background-color: rgb(0, 0, 0);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: center;
+    display: block;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
     header{
         background-color:#E6A2C5;
         padding: 20px;
@@ -58,5 +81,8 @@
         padding: 5px;
         text-align: left;    
       }
-    
+      footer{
+        color:#ffffff;
+        text-align: center;
+    }
     
