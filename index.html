@@ -55,6 +55,7 @@
               <li>VÍCEVRSTVÉ WEBOVÉ APLIKACE</li>
               <li>APLIKACE S VYUŽITÍM WEBSOCKET</li>
               <li>DJANGO APLIKACE</li>
+              <li>MVC: MODEL-VIEW-CONTROLLER</li>
             </ol>
           </div>
           <div class="card-footer" style="background-color: #E6A2C5;">
@@ -132,7 +133,85 @@
       <section>
         <div id="Typy webových aplikací">
           <h2>Typy webových aplikací</h2>
-          <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, numquam similique. Distinctio dolores quas aperiam nesciunt fuga culpa ut, esse iusto tenetur eveniet, magnam, necessitatibus est libero cupiditate maiores unde incidunt maxime corporis impedit assumenda harum ex quo rerum labore? Odit sapiente, quas mollitia nemo minima deserunt unde porro expedita.</p>
+          <div class="p-2">
+            <h3>1. VÍCEVRSTVÉ WEBOVÉ APLIKACE</h3>  
+              <p>
+                <ul>
+                  <li>
+                    Webová aplikace je aplikace poskytovaná uživatelům z webového serveru přes internet nebo jinou vnitropodnikovou sít’ (intranet). Díky pokročilým webovým technologiím je možné realizovat webovým prostředím stále složitější a komplexnější aplikace, včetně informačních systémů, cloudových služeb apod.
+                  </li>
+                  <li>
+                    Současné webové aplikace jsou strukturovány do více vrstev, tradičně se uvádějí tři základní vrstvy: 
+                      <ol>
+                        <li>Funkci prezentační vrstvy plní zpravidla webový prohlížeč. 
+                        </li>
+                        <li>Logickou vrstvu představují technologie na dynamické generování webových stránek (PHP, ASP.NET, JSP apod.), jež se nejčastěji zpracovávají na straně webového serveru. 
+                        </li>
+                        <li>Datovou vrstvu mohou tvořit databáze umístěné na databázovém serveru, ale zdrojem dat mohou být také datové soubory nebo internetové služby. 
+                        </li>
+                      </ol>
+                  </li>
+                </ul> 
+                </p>
+              <h3>2. APLIKACE S VYUŽITÍM WEBSOCKET</h3>
+              <p>
+                <ul>
+                  <li>
+                    <b>WebSocket</b> je nezávislý počítačový <b>komunikační protokol,</b> poskytující <b>plně duplexní (obousměrný) komunikační kanál přes jediné TCP připojení.</b> 
+                  </li>
+                  <li>
+                    Je navržen tak, aby mohl být prováděn ve webových prohlížečích a na webových serverech, ale může být použita jakákoliv klientská a serverová aplikace. 
+                  </li>
+                  <li>
+                    Umožňuje interakci mezi prohlížečem a webovým serverem s nižší režií, usnadňuje real-time přenos dat. Využívá se pro vytváření aplikací v reálném čase, jako jsou <b>online chaty, kooperativní služby </b>(např. sdílená tabule, videokonference), online hry apod.
+                  </li>
+                  <li>
+                    V současné době je podporován většinou hlavních prohlížečů, vyžaduje však podporu také na straně serveru.
+                  </li>
+                  <li>Nejčastěji se k vývoji těchto aplikací používá javascriptová knihovna <b>Socket.IO</b></li>
+                </ul>
+              </p>
+              <h3>3. DJANGO APLIKACE</h3>
+              <p>
+                <ul>
+                  <li>
+                    <b>Projekt</b> je chápán jako nejvyšší úroveň v Djangu.
+                  </li>
+                  <li>
+                    Každá <b>aplikace</b> musí být zaregistrována v konfiguračním souboru <b>settings.py.</b>
+                  </li>
+                  <li>
+                    Projekt i jednotlivé aplikace je možné spravovat pomocí skriptu <b>manage.py.</b>
+                  </li>
+                  <li>
+                    Šablony pro zobrazení stránek mají strukturu souborů HTML obohacených o instrukce (makra) šablonovacího systému.
+                  </li>
+                  <li>
+                    Samotný šablonovací systém je velice flexibilní a nabízí vytváření vlastních rozšíření i využití dědičnosti šablon.
+                  </li>
+                </ul>
+              </p>
+              <h3>4. MVC: MODEL-VIEW-CONTROLLER</h3>
+              <p>
+                <ul>
+                  <li>
+                    Architektura moderních webových aplikací velmi často vychází z návrhového vzoru.
+                  </li>
+                  <li>
+                    Základní myšlenkou MVC architektury je <b>oddělení aplikační logiky od výstupu.</b>
+                  </li>
+                  <li>
+                    V pojetí MVC je aplikace přehledně rozdělena na komponenty tří typů:
+                    <ol>
+                      <li><b>Model -</b> obsahuje logiku aplikace. Jeho úkolem je podle zadaných parametrů zpracovat určitá vstupní data a připravit z nich data výstupní. V případě použití ORM (objektově-relační mapování), korespondují modely přímo s databázovými tabulkami. Pro programování bez ORM můžeme využít principu manažerů</li>
+                      <li><b>View -</b> má na starost zobrazení výstupu dat, která mu byla předána. Nejčastěji se k tvorbě pohledů používají tzv. <b>šablonovací systémy</b>, které umožňují do šablony, vkládat do symbolických bloků (často tvořených složenými závorkami) proměnné i různé příkazy (podmínky, cykly). </li>
+                      <li><b>Controller</b> - zprostředkovává komunikaci mezi klientem, modelem a pohledem. Každá entita mívá svůj vlastní controller .</li>
+                    </ol>
+                  </li>
+                </ul>
+              </p>
+          </div>
+          
         </div>
       </section>
 
